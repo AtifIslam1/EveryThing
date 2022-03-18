@@ -1,0 +1,120 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.flexible{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+    padding-right: 20%;
+}
+.hed{
+    font-size: 40px;
+}
+#mis2022{
+    font-size: 45px;
+    color: orange;
+}
+.sm{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, pink);
+    border-image-slice: 1;
+    padding-left: 5%;
+}
+.buttonbox{
+    text-decoration: none;
+    background-image: linear-gradient(wheat, skyblue);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.mymis{
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+#y2022{
+    color: orange;
+}
+.half-width2{
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.half-width2 img{
+    width: 80%;
+}
+.box{
+    background-image: linear-gradient(rgb(110, 235, 60), rgb(219, 219, 69));
+    margin-right: 2%;
+    padding-left: 3%;
+    border-radius: 20px;
+}
+.box2{
+    background-image: linear-gradient( pink, rgb(107, 67, 199));
+    margin-right: 2%;
+    padding-left: 3%;
+    border-radius: 20px;
+}
+.box3{
+    background-image: linear-gradient(skyblue, pink);
+    margin-right: 2%;
+    padding-left: 3%;
+    border-radius: 20px;
+}
+.dev{
+    font-size: 35px;
+}
+#ky{
+    font-size: 35px;
+}
+.last{
+    text-align: center;
+}
+.half-width3{
+    width: 50%;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+.cen{
+    padding-top: 10%;
+    text-align: center;
+    font-size: 350%;
+}
+#wj{
+    color: rgb(223, 31, 223);
+}
+.jms{
+    color: rgb(253, 47, 47);
+}
+.lastcentre{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#last2022{
+    color: rgb(253, 47, 47);
+}
+body {
+    margin:0;
+}
+.boxall{
+    width: 100%;
+}
+.progjhankar{
+    color: white;
+    text-decoration: none;;
+    background-image: linear-gradient(skyblue, blue, pink);
+    border-radius: 5px;
+    padding: 5px 10px;
+}

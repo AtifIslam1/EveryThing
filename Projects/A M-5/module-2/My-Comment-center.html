@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>My-Comment-Center</title>
+</head>
+
+<body>
+     <header>
+          <h1>Welcome To My Comment Center</h1>
+     </header>
+     <main>
+          <h2>Commnets</h2>
+          <div id="comment-container">
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore possimus blanditiis asperiores
+                    voluptates placeat deserunt doloribus, enim facilis odio nobis eveniet qui at consequuntur?
+                    Accusantium aut perferendis aperiam a quae.</p>
+               <p>Sapiente nesciunt architecto dicta rem repudiandae praesentium nihil sunt, temporibus libero fugiat
+                    cupiditate dolor iste iure quia fugit numquam doloremque. Ratione temporibus illum, dicta inventore
+                    nobis incidunt quo perferendis odio?</p>
+               <p>Esse eius asperiores aliquam inventore sint libero facere mollitia ducimus architecto debitis quaerat
+                    odit ut, nam sequi fuga dolor tempore cumque sit iure quae explicabo vitae, nemo labore cupiditate?
+                    Doloribus?</p>
+          </div>
+          <div>
+               <textarea name="" id="Comment-box" cols="60" rows="10"></textarea><br>
+               <button id="submit">Post</button>
+          </div>
+     </main>
+
+     <script>
+          document.getElementById('submit').addEventListener('click', function () {
+               const commentBox = document.getElementById('Comment-box');
+               const newComment = document.createElement('p')
+               newComment.innerText = commentBox.value
+               const commentContainer = document.getElementById('comment-container')
+               commentContainer.appendChild(newComment)
+               commentBox.value = '';
+          });
+     </script>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');     
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     font-family: 'Montserrat', sans-serif;
+}
+
+/*   ---------------------------
+   -------- common css ----------
+    --------------------------
+ */
+
+
+
+header{
+     
+     background-image: url('../images/cloud.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-color: rgba(0,0,0,.5);
+     background-blend-mode: overlay;
+}
+.highlight{
+     color: #E8BD0D;
+}
+.primary-button{
+     outline: 0;
+     border: 0;
+     padding: 15px 20px;
+     border-radius: 8px;
+     background-image: linear-gradient(90deg, #b30f69, #FF008E);
+     color: white;
+     font-size: 18px;
+     text-transform: uppercase;
+     cursor: pointer;
+     box-shadow: 0 7px 0 #b30f69;
+     position: relative;
+     top: 0;
+}
+.primary-button:active{
+     top: 5px;
+     box-shadow: 0 2px 0 #b30f69;
+}
+.section-title{
+     margin-top: 120px;
+     text-align: center;
+}
+.section-title h2{
+     font-size: 50px;
+     display: inline-block;
+     text-transform: uppercase;
+     border-bottom: 2px solid #FF008E;
+     margin: 50px 0;
+}
+.container{
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 30px;
+}
+nav{
+     display: flex;
+     justify-content: space-between;
+     height: 80px;
+     align-items: center;
+}
+.navigation{
+     display: flex;
+}
+.navigation li{
+     list-style: none;
+}
+.navigation li a{
+     text-decoration: none;
+     margin: 10px;
+     color: white;
+     font-weight: 600;
+     padding: 15px 10px;
+}
+.banner{
+     height: calc(100vh - 80px);
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+.banner-left p{
+     color: white;
+     font-size: 20px;
+     line-height: 1.5;
+     margin: 20px 0;
+}
+.banner-left{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+}
+.banner-left h1{
+     font-size: 45px;
+     color: white;
+}
+.banner-right{
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+}
+.banner-right img{
+     width: 100%;
+}
+
+/* Feature part css */
+
+.feature{
+     display: grid;
+     gap: 30px;
+     grid-template-columns:  1fr 1fr;
+     justify-content: center;
+}
+.card{
+     width: 300px;
+     padding: 30px;
+     margin: 0 auto;
+     box-shadow: 0 30px 35px rgba(0,0,0,.2);
+}
+.card .card-icon{
+     background-color: #FF008E;
+     border-radius: 50%;
+     height: 37px;
+     width: 37px;
+     padding: 11px;
+     color: #fff;
+}
+.card h3{
+     color: #ff008e;
+     font-size: 25px;
+}
+.card p{
+     margin: 10px 0;
+     line-height: 1.5;
+}
+.card a{
+     text-decoration: none;
+     color: #ff008e;
+}
+
+
+/* gallery part css */
+.gallery{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+}
+.photo img{
+     width: 100%;
+     height: 200px;
+     object-fit: cover;
+     border: 5px solid #ff008e;
+     border-radius: 9px;
+}
+.photo:hover{
+     transform: scale(1.1);    
+     transition: transform 0.2s ease-in-out;
+}
+/* Contact part css */
+#contact{
+     margin-top: 180px;
+}
+.contact{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 30px;
+}
+.contact-left img{
+     width: 100%;
+}
+.contact-right form{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+.text-field{
+     width: 100%;
+     margin: 10px 0;
+     padding: 10px;
+     font-size: 18px;
+     font-family: inherit;
+     outline: 0;
+     border: 4px solid #ff008e;
+     border-radius: 8px;
+}
+hr{
+     border: 1px solid #ff008e;
+     margin-top: 60px;
+     
+}
+footer{
+     height: 50px;
+     margin-top: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}

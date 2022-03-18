@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+
+/*========== Selection Page Css =========*/
+
+.option-hov-w:hover{
+     border: rgb(170, 48, 170) solid 7px;
+     border-radius: 6px;
+     transform: scale(1.03);    
+     transition: transform 0.2s ease-in-out;
+}
+.option-hov-m:hover{
+     border: rgb(25, 25, 182) solid 7px;
+     border-radius: 6px;
+     transform: scale(1.03);    
+     transition: transform 0.2s ease-in-out;
+}
+
+/*========== Woman Page and some man parts as well ============*/
+
+.font-pop{
+     font-family: 'Mochiy Pop P One', sans-serif;
+}
+.full-font{
+     font-family: 'Poppins', sans-serif;
+}
+.text-dec:hover{
+     text-decoration: underline;
+}
+.given-bg{
+     background-color: #FFD700;
+}
+.given{
+     color: #FFD700;
+}
+.rounded-9{
+     border-radius: 20px;
+}
+.background-gradient{
+     background-image: linear-gradient(60deg, #eedf0f6b, #ec11da);
+}
+.large-margin{
+     margin-top: 120px;
+}

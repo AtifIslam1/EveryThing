@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khabar Dao :)</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="bg-dark">
+    <h1 class="text-center mt-3 text-success fw-bold display-5">Search You faviorite Food</h1>
+    <div class="input-group my-3 w-50 mx-auto">
+        <input id="search-field" type="text" class="form-control " placeholder="Your Food Name">
+        <button onclick="searchFood()" id="button-search" class="btn btn-outline-danger" type="button">Search</button>
+    </div>
+
+    <!-- Single Meal details -->
+    <div id="meal-details" class=" w-50 mx-auto">
+        
+    </div>
+
+    <!-- search Result -->
+    <div id="search-result" class="container row row-cols-1 row-cols-md-3 g-4 mx-auto my-4">
+        
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/mealdbAsync.js"></script>
+</body>
+</html>

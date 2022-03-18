@@ -1,0 +1,27 @@
+body{
+     font-family: 'Roboto Slab', serif;
+}
+.login-container{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 80px;
+}
+.writing{
+     text-align: center;
+     padding-top: 80px;
+}
+.title{
+     text-align: center;
+     letter-spacing: 30px;
+     padding-top: 20px;
+}
+.fas{
+     padding-right: 225px;
+     color: blue;
+}
+.login-box{
+     border: 3px solid magenta;
+     margin-top: 100px;
+     margin-right: 400px;
+     margin-left: 400px;
+}

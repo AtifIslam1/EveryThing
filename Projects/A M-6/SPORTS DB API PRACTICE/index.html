@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Stars!</title>
+    <script src="https://kit.fontawesome.com/b723ba5bde.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+        body {
+            font-family: 'Fira Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-dark">
+            <div class="container">
+                <a class="navbar-brand fs-2 text-danger">Sport Stars</a>
+                <div class="d-flex">
+                    <input id="search-field" class="form-control me-2" type="search" placeholder="Name">
+                    <button onclick="names()" class="btn btn-outline-danger" type="text">Search</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <p class="text-center my-3"><small>~Made By Atif~</small></p>
+    <section class="container">
+        <div>
+            <h2 class="text-center">Search For your Favourite Player</h2>            
+        </div>
+        <div id="search-result" class="row g-4 p-4">
+            
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

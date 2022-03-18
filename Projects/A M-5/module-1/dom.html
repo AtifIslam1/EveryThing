@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+
+<body>
+     <header>
+          <h1>My Awesome Vlog</h1>
+     </header>
+     <main>
+          <article class="blog">
+               <h3>My Blog - 1</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, iusto? Obcaecati inventore delectus
+                    recusandae voluptatem quis? Incidunt?</p>
+          </article>
+          <article class="blog">
+               <h3 id="second-title">My Blog - 2</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, iusto? Obcaecati inventore
+                    delectadfdfasfsdfasfus
+                    recusandae voluptatem quis? Incidunt?</p>
+          </article>
+          <article class="blog">
+               <h3>My Blog - 3</h3>
+               <p>Lorem ipsum doasasdaddar sit amet consectetur adipisicing elit. Facilis, iusto? Obcaecati inventore
+                    delectus
+                    recusandae voluptatem quis? Incidunt?</p>
+          </article>
+     </main>
+
+     <script>
+          const blogdetails = document.getElementsByTagName('p')
+          for (const p of blogdetails) {
+               console.log(p.innerText);
+          }
+
+          const second = document.getElementById('second-title')
+          second.style.color = 'red'    
+     </script>
+</body>
+
+</html>
